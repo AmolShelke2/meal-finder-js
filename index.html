@@ -6,8 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meal-finder-js</title>
     <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
   </head>
   <body>
+    <!-- container  -->
+    <div class="container">
+      <h1>Meal Finder</h1>
+      <div class="flex">
+        <form class="flex">
+          <input
+            type="text"
+            id="search"
+            placeholder="Search for meals or keywords"
+          />
+          <button class="search-btn" type="submit">
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+        <button class="random" id="random">
+          <i class="fas fa-random"></i>
+        </button>
+      </div>
+
+      <div class="result-heading"></div>
+      <div class="meals" id="meals"></div>
+      <div class="signle-meal"></div>
+    </div>
+    <!-- end of container -->
     <!-- script. -->
     <script src="script.js"></script>
   </body>
