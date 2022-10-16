@@ -63,7 +63,7 @@ html {
 /* Meal container */
 .meal-container {
   margin: 4rem;
-  padding: 5rem 10rem;
+  padding: 6rem 10rem;
   display: flex;
   flex-direction: column;
   align-content: center;
