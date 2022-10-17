@@ -116,5 +116,49 @@ body {
 /* end of meal container */
 
 /* Adding Media queries */
+@media (max-width: 1200px) {
+  html {
+    font-size: 60%;
+  }
 
+  .container h1 {
+    font-size: 3rem;
+    padding: 1rem 0;
+  }
+
+  .container h3 {
+    font-size: 1.2rem;
+  }
+
+  .meal-button {
+    top: 10rem;
+  }
+
+  .img-container img {
+    height: 300px;
+  }
+
+  .description {
+    width: 100vw;
+  }
+
+  .meal-container h2 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 50%;
+  }
+
+  .meal-container h2 {
+    font-size: 2rem;
+  }
+
+  .img-container img {
+    height: 300px;
+    width: 350px;
+  }
+}
 /* End of Media queries */
